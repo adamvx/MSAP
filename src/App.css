@@ -1,18 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  background-color: #1f1f1f;
+  color: white;
 }
+
+.header {
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  padding: 0 32px 0 32px;
+}
+
+.dark {
+  background-color: #1d1d1d;
+}
+
+.light {
+  background-color: #232323;
+}
+
+.logo {
+  margin-right: 32px;
+  height: 100%;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  display: inline-flex;
+  padding-left: 32px;
+}
+
+.video {
+  flex: 1;
+  display: flex;
+  height: calc(100vh - 200px)
+}
+
+.author {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author > * {
+  flex: 1;
+}
+
+.react-logo {
+  height: 200px;
+}
+
+.dvc {
+  height: 300px;
+  object-fit: contain;
+}
+
+.about > * {
+  flex: 1;
+}
+
+.about {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.download{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0px;
+}
+
+.button {
+  position: relative;
+  font-weight: bold;
+  display: block;
+  padding: 8px 16px;
+  margin-top: 32px;
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  
+  background-color: #00d8fe;
+  color: #000;
+}
+
+.footer {
+  padding: 24px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background: #171717;
+}
+
