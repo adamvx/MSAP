@@ -1,0 +1,15 @@
+version: "3.8"
+
+services: 
+  msap-zadanie:
+    image: msap-zadanie
+    build: .
+    container_name: msap-zadanie
+    restart: unless-stopped
+    expose:
+      - 80
+    network_mode: bridge
+    environment: 
+      - VIRTUAL_HOST=msap.adamvician.sk, www.msap.adamvician.sk
+      - LETSENCRYPT_HOST=msap.adamvician.sk, www.msap.adamvician.sk
+      - LETSENCRYPT_EMAIL=adamvician@gmail.com
