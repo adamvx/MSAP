@@ -54,7 +54,10 @@ function App() {
         <h1>Súbory na stiahnutie</h1>
         <p>Všetky zdrojáky a súbory sú dostuné na stiahnutie na GitHube.</p>
         <p>Všetok obsah spadá pod licenciu MIT.</p>
-        <button className='button'><span>Stiahnuť tu</span></button>
+        <button onClick={(e) => {
+          e.preventDefault()
+          window.open('https://github.com/adamvx/MSAP-zadanie')
+        }} className='button'><span>Stiahnuť tu</span></button>
       </section>
       <footer className='footer'>
         <span>Adam Vician - 2021</span>
