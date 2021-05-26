@@ -46,7 +46,7 @@ function App() {
         <div>
           <h1>O videu</h1>
           <p>Videoprezentácia je na tému softwarovej bezpečnosti. Toto video bolo mojím riešením zadania z predmetu EMAR v 4 semestri môjho štúdia a rozhodol som sa ho použiť aj ako riešenie tohoto zadania. Bohužial video nespĺňa všetky požadované body zadania ale rozhodol som sa ho použiť aj tak, lebo si myslím že téma, výskum za tou témou a celková náučná hodnota videa može nahradť niektoré chýbajúce body zadania. (Tu by som chcel spomenúť že video spĺňa väčšinu bodov.)</p>
-          <p>Video bolo zaznamenané pomocu môjho telefónu a pomocou programo OBS. Tieto dva záznamy boli následne upravované v programe DaVicni Resolve v ktorom bolo do videa pridnaná hudba, titulky a iné efekty. Následne bolo video vyrenderované do požadovanej kvality a nahrané na YouTube.</p>
+          <p>Video bolo zaznamenané pomocu môjho telefónu a pomocou programo OBS. Tieto dva záznamy boli následne upravované v programe DaVicni Resolve v ktorom bolo do videa pridnaná hudba, titulky a iné efekty. Následne bolo video vyrenderované do požadovanej kvality a nahrané na YouTube. Bohužial už originálne súbory projektu nemám, mám iba výsledok na YT.</p>
           <p>Ďalšie dodatočné informácie ohľadne videa alebo jeho témy sa dajú dohľadať v obsahu videa na platforme YouTube.</p>
         </div>
       </section>
